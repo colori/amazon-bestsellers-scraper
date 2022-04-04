@@ -1,12 +1,12 @@
 {
-    "title": "Amazon Best Sellers crawler",
+    "title": "Amazonベストセラー・クローラー",
     "type": "object",
     "schemaVersion": 1,
     "properties": {
         "domain": {
-            "title": "Domain",
+            "title": "ドメイン",
             "type": "string",
-            "description": "Select the URL of the Amazon Best Sellers page you want to extract.",
+            "description": "抽出したいアマゾンのURLを選択してください。",
             "editor": "select",
             "default": "https://www.amazon.com/Best-Sellers/zgbs",
             "enum": [
@@ -29,13 +29,13 @@
             ]
         },
         "categoryUrls": {
-            "title": "Category Urls",
+            "title": "カテゴリURL",
             "type": "array",
-            "description": "Choose specific categories to scrape. Example URL: https://www.amazon.com/Best-Sellers-Automotive/zgbs/automotive. If this field is empty, top level results are chosen",
+            "description": "スクレイピングしたいカテゴリページを指定してください。URL例: https://www.amazon.com/Best-Sellers-Automotive/zgbs/automotive. If this field is empty, top level results are chosen",
             "editor": "requestListSources"
         },
         "depthOfCrawl": {
-            "title": "Depth of crawl",
+            "title": "クロール深度",
             "type": "integer",
             "description": "How many subcategories would you like to visit? Minimum working value is 1, maximum is 2. Amazon Best Sellers includes 37 main categories. All of these have at least one more level of subcategorisation. Setting a crawl depth of 2 returns roughly 550 subcategories, each with 100 results. If you would like to extract more subcategories, please, get in touch.",
             "prefill": 1,
@@ -45,7 +45,7 @@
             "editor": "number"
         },
         "proxy": {
-            "title": "Proxy configuration",
+            "title": "プロキシ設定",
             "type": "object",
             "description": "Select proxies to be used by your crawler. For more information, visit https://docs.apify.com/proxy",
             "prefill": {
