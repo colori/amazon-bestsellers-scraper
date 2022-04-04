@@ -15,7 +15,8 @@
                 "https://www.amazon.de/gp/bestsellers/?ref_=nav_cs_bestsellers",
                 "https://www.amazon.fr/gp/bestsellers/?ref_=nav_cs_bestsellers",
                 "https://www.amazon.es/gp/bestsellers/?ref_=nav_cs_bestsellers",
-                "https://www.amazon.it/gp/bestsellers/?ref_=nav_cs_bestsellers"
+                "https://www.amazon.it/gp/bestsellers/?ref_=nav_cs_bestsellers",
+                "https://www.amazon.co.jp/gp/bestsellers/ref=zg_bsnr_tab",
             ],
             "enumTitles": [
                 "amazon.com",
@@ -23,7 +24,8 @@
                 "amazon.de",
                 "amazon.fr",
                 "amazon.es",
-                "amazon.it"
+                "amazon.it",
+                "amazon.co.jp"
             ]
         },
         "categoryUrls": {
