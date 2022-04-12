@@ -35,6 +35,9 @@ Apify.main(async () => {
             useChrome: true,
             launchOptions: {
                 headless: false,
+                env: {
+                    LANGUAGE: "ja_JP"
+                },
                 args: ['--lang=ja-JP,ja']
             },
         },
