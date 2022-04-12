@@ -35,7 +35,7 @@ Apify.main(async () => {
             useChrome: true,
             launchOptions: {
                 headless: false,
-                args: ['--lang=ja-JP,ja']
+                args: ['--lang=ja']
             },
         },
         useSessionPool: true,
